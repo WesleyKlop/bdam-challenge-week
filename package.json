@@ -1,0 +1,24 @@
+{
+  "name": "bdam-data-cleaner",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "webpack --watch",
+    "build": "NODE_ENV=production webpack"
+  },
+  "dependencies": {
+    "@babel/register": "^7.0.0-beta.37",
+    "csvtojson": "^1.1.9"
+  },
+  "main": "dist/main.js",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "babel-loader": "8.0.0-beta.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "prettier": "^1.10.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}
